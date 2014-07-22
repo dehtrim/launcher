@@ -1,0 +1,4 @@
+java -cp ProsperCraft.jar com.skcraft.launcher.builder.PackageBuilder --version "1.0" --manifest-dest "dist/manifest.json" --objects-dest "dist/objects" --files "src" --config "apocalypse-v1.0.2.json" --objects-url "objects" --version-file "version.json" --libs-url "http://play.prospercraft.com/minecraft/libraries"
+java -cp ProsperCraft.jar com.skcraft.launcher.builder.PackageBuilder --version "1.0" --manifest-dest "dist/manifest.json" --objects-dest "dist/objects" --files "src" --config "Ponies_and_Pretty_Things_v1.json" --objects-url "objects" --version-file "version.json" --libs-url "http://play.prospercraft.com/minecraft/libraries"
+
+rsync -ave ssh dehtrim@home.bennett-m.com:/var/www/html/minecraft/packages/bteam1/ packages/bteam1/
