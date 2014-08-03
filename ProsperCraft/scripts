@@ -13,11 +13,13 @@ java -cp ProsperCraft.jar com.skcraft.launcher.builder.PackageBuilder --version 
 
 
 
-##command to update server with new package files, deleting old ones.
-##ZigZag V1
 
+##ZigZag V1 -- Script to build MOD pack 
 java -cp ProsperCraft.jar com.skcraft.launcher.builder.PackageBuilder --version "1.0" --manifest-dest "dist/manifest.json" --objects-dest "dist/objects" --files "src" --config "ZigZagv1.json" --objects-url "objects" --version-file "version.json" --libs-url "http://play.prospercraft.com/minecraft/libraries"
-rsync -del -ave ssh dehtrim@home.bennett-m.com:/var/www/html/minecraft/packages/zigzag1/ zigzag1/ 
+
+
+##command to update server with new package files, deleting old ones.
+rsync -del -ave ssh dehtrim@home.bennett-m.com:/var/www/html/minecraft/packages/zigzag1/ /vz/root/120/var/www/html/minecraft/packages/zigzag1/ 
 
 
 
