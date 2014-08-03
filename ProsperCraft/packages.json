@@ -1,0 +1,31 @@
+{
+  "minimumVersion": 1,
+  "packages": [
+  {
+      "name": "Ponies",
+      "title": "Ponies and Pretty Things v1.1",
+      "version": "1.1",
+      "location": "packages/ponies/manifest.json",
+      "priority": 2
+    },
+
+{
+      "name": "BTeam",
+      "title": "Attack of the BTeam v1.0.12a",
+      "version": "1.0.12a",
+      "location": "packages/bteam1/manifest.json",
+      "priority": 4
+
+    },
+
+{
+      "name": "ZigZag V1",
+      "title": "ZigZagV1",
+      "version": "1",
+      "location": "packages/zigzag1/manifest.json",
+      "priority": 5
+    }
+
+
+    ]
+}
